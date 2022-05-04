@@ -1,17 +1,161 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="styles.css">
-  <title>Vanilla JavaScript App</title>
+    <meta charset="utf-8" />
+    <title>Daniel's Website</title>
+    <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="Content/Site.css">
+    <script src="Scripts/modernizr-2.6.2.js"></script>
+    <script src="Scripts/jquery-1.8.2.js"></script>
 </head>
-
 <body>
-  <main>
-    <h1>Vanilla JavaScript App</h1>
-  </main>
-</body>
+    <header>
+        <div class="content-wrapper">
+            <div class="float-left">
+                <p class="site-title">
+                    Daniel
+                </p>
+            </div>
+            <div class="float-right">
+                <nav>
+                    <ul id="menu">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="resources.html">Books and Resources</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <div id="body">
+        <section class="content-wrapper main-content clear-fix">
+            <hgroup class="title">
+                <!--Page description here-->
+                <h2>A little bit about me</h2>
+            </hgroup>
+            <table>
+                <!-- Page content here -->
+                <tr>
+                    <!--left hand site - photo/headshot-->
+                    <td>
+                        <img src="Images/headshot.png" alt="Daniel's headshot photograph" />
+                    </td>
 
+                    <td style="vertical-align:top">
+                        <!-- main content -->
+                        <h3>Hey there!</h3>
+
+                        <p>
+                            My name is Daniel.  I am currently based in South East London, where I work full time as a software engineer for <a href="https://cowen.com">Cowen</a>, and spend quite a bit of my free time volunteering for <a href="https://sja.org.uk">St John Ambulance</a>.
+                        </p>
+
+                        <p>
+                            I have an interest and experience in a wide range of technologies, including but not limited to
+                        </p>
+
+                        <ul>
+                            <li>C#</li>
+                            <li>.NET Framework (inc. .NET Core)</li>
+                            <li>ASP.NET</li>
+                            <li>NServiceBus</li>
+                            <li>Seq (with NLog and Serilog)</li>
+                            <li>TeamCity and Octopus</li>
+                            <li>Git and Gitlab</li>
+                            <li>RabbitMQ</li>
+                            <li>Python</li>
+                            <li>Salesforce</li>
+                            <li>Slack API and Teams Webhooks</li>
+                            <li>Zabbix and Solarwinds</li>
+                            <li>Jira and Confluence</li>
+                            <li>WPF</li>
+                            <li>Silverlight</li>
+                            <li>WCF</li>
+                            <li>SQL (SQL Server & Oracle 11)</li>
+                            <li>JavaScript / jQuery</li>
+                        </ul>
+                        <p>
+                            I have roughly 10 years commercial software engineering experience, which has stretched across the financial services sector, healthcare, charities and local government.
+                        </p>
+                        <p>
+                            For more information, feel free to <a href="https://app.pluralsight.com/profile/daniel-mcnally-18">check out my Pluralsight Skill IQs</a> or <a href="contact.html">get in touch</a>.
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <h4>Books and Resources</h4>
+                        <p>I have read and watched a number of interesting things other the years.  Here is a short list of the things that have really stood out to me.</p>
+
+                        <ul>
+                            <li>
+                                <a href="https://www.goodreads.com/book/show/28259132-chaos-monkeys">Chaos Monkeys by Antonio García Martínez (Book)</a>
+                            </li>
+                            <li>
+                                <a href="https://medium.com/@iantien/top-takeaways-from-andy-grove-s-high-output-management-2e0ecfb1ea63">High Output Management by Andy Grove (Book)</a>
+                            </li>
+                            <li>
+                                <a href="http://atulgawande.com/book/the-checklist-manifesto/">The Checklist Manifesto by Atul Gawande (Book)</a>
+                            </li>
+                            <li>
+                                <a href="https://www.youtube.com/channel/UCy0tKL1T7wFoYcxCe0xjN6Q">Technology Connections (YouTube)</a>
+                            </li>
+                            <li>
+                                <a href="https://www.youtube.com/c/PlainlyDifficult">Plainly Difficult (YouTube)</a>
+                            </li>
+                            <li>
+                                <a href="https://www.youtube.com/c/MiniAirCrashInvestigation">Mini-Air Crash Investigation (YouTube)</a>
+                            </li>
+                            <li>
+                                <a href="https://blog.codinghorror.com/">Coding Horror by Jeff Atwood (Blog)</a>
+                            </li>
+                            <li>
+                                <a href="https://www.joelonsoftware.com">Joel On Software by Joel Spolsky (Blog)</a>
+                            </li>
+
+                        </ul>
+                    </td>
+                    <td>
+
+                        <section class="contact">
+                            <header>
+                                <h4>Contact Details and Networks</h4>
+                            </header>
+                            You can reach me on enquiries [at] dannymc.co.uk, or via any of the below networks
+                            <br />
+                            <p>
+                                <span class="label">LinkedIn:</span>
+                                <br />
+                                <a href="https://uk.linkedin.com/pub/daniel-mcnally/39/1/562" style="text-decoration:none;"><span style="font: 80% Arial,sans-serif; color:#0783B6;"><img src="https://static.licdn.com/scds/common/u/img/webpromo/btn_in_20x15.png" width="20" height="15" alt="View Daniel McNally's LinkedIn profile" style="vertical-align:middle;" border="0">&nbsp;View Daniel's profile</span></a>
+                            </p>
+                            <br />
+                            <p>
+                                <span class="label">Stack Overflow:</span>
+                                <br />
+                                <a href="http://stackoverflow.com/users/1368429/dannymc18">
+                                    <img src="http://stackoverflow.com/users/flair/1368429.png?theme=clean" width="208" height="58" alt="profile for dannymc18 at Stack Overflow, Q&amp;A for professional and enthusiast programmers" title="profile for dannymc18 at Stack Overflow, Q&amp;A for professional and enthusiast programmers">
+                                </a>
+                            </p>
+                            <br />
+                            <p>
+                                <span class="label">GitHub:</span>
+                                <br />
+                                <a href="https://github.com/dannymc18/">View Daniel's Profile</a>
+                            </p>
+                        </section>
+                    </td>
+                </tr>
+                <!-- End page content -->
+            </table>
+        </section>
+    </div>
+    <footer>
+        <div class="content-wrapper">
+            <div class="float-left">
+                <p>&copy; 2022</p>
+            </div>
+        </div>
+    </footer>
+</body>
 </html>
